@@ -159,6 +159,138 @@ h1 {
   text-align: center;
 }
 
+.options {
+  margin: 28px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.options legend {
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.text-answer {
+  margin-top: 28px;
+}
+
+.text-answer label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.text-answer textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c9d1de;
+  border-radius: 12px;
+  font: inherit;
+  resize: vertical;
+}
+
+.progress {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e0e5ed;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.progress p {
+  margin: 6px 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.action-button {
+  padding: 10px 18px;
+  border: 1px solid #426db2;
+  border-radius: 10px;
+  background: #fff;
+  color: #365c99;
+  cursor: pointer;
+}
+
+.action-button:disabled {
+  border-color: #c9d1de;
+  color: #9aa5b5;
+  cursor: not-allowed;
+}
+
+.action-button.finish {
+  margin-left: auto;
+  background: #426db2;
+  color: #fff;
+}
+
+.review-list li {
+  margin-bottom: 18px;
+}
+
+.review-prompt {
+  margin: 0;
+  font-weight: bold;
+}
+
+.review-answer {
+  margin: 4px 0 0;
+  white-space: pre-wrap;
+}
+
+.warning {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #e0b04a;
+  border-radius: 12px;
+  background: #fff6e0;
+}
+
+.warning p {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.warning .action-button.finish {
+  margin-left: 0;
+}
+
+.action-button.primary {
+  padding: 12px 24px;
+  border-color: #426db2;
+  background: #426db2;
+  color: #fff;
+  font-weight: bold;
+}
+
+.action-button.primary:hover {
+  background: #365c99;
+}
+
+.action-button:focus-visible {
+  outline: 3px solid #91b7f4;
+  outline-offset: 3px;
+}
+
 @media (max-width: 1023px) {
   .app {
     padding: 45px 24px;
